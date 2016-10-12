@@ -2,6 +2,9 @@
 
 ## Table of Contents
 
+* [Notes](#notes)
+
+
 * [HTML](#html)
   * [DOCTYPE, HTML, Head, and Body](#doctype-html-head-and-body)
   * [Titles](#titles)
@@ -27,9 +30,13 @@
 
 ## Curriculum
 
-Modern browsers are very forgiving on what is or isn't included in an HTML document. Browsers would rather guess what you meant than serve up an error or broken webpage. For that reason, most everything we mention is considered *best practices* meaning it's recommended but not required.
+### Notes
 
-It's also important to note that whitespace (spaces, tabs, blank lines) is generally ignored in HTML. It's good to indent your code so it's easy to read, but don't worry about getting it to look exactly like our code. We change the indents as needed to emphasis certain structures.
+* While it's easy to write out a website in a plain text editor such as Notepad or TextEdit or a text editor made for programming such as Atom, we chose to keep it simple for the class and recommend using [HyperDev](http://www.hyperdev.com). Start a project and empty out index.html of any template code that HyperDev may have added.
+
+* Modern browsers are very forgiving on what is or isn't included in an HTML document. Browsers would rather guess what you meant than serve up an error or broken webpage. For that reason, most everything we mention is considered *best practices* meaning it's recommended but not required.
+
+* It's also important to note that whitespace (spaces, tabs, blank lines) is generally ignored in HTML. It's good to indent your code so it's easy to read, but don't worry about getting it to look exactly like our code. We change the indents as needed to emphasis certain structures.
 
 ### HTML
 
@@ -170,7 +177,7 @@ HTML gives us two types of lists unordered lists (`ul`) and ordered lists (`ol`)
 
 #### Links
 
-Now we want to have a list of links for our "Links" section. For links we use the `a` tag which requires a `href` attribute ("Hypertext REFerence") to tell the browser where the link goes. In between the `a` opening and closing tag we add a description of where the link goes. So here we just add links inside of out `li` tags to create a list of links:
+Now we want to have a list of links for our "Links" section. For links we use the `a` tag which requires a `href` attribute ("Hypertext REFerence") to tell the browser where the link goes. In between the `a` opening and closing tag we add a description of the link. So here we just add links inside of our `li` tags to create a list of links:
 
 ```HTML
 <!-- index.html -->
@@ -190,7 +197,7 @@ Now we want to have a list of links for our "Links" section. For links we use th
 
 The `div` tag is very important to designing a website even though it doesn't really DO anything. `div` stands for "division" and is just a way for us to group content together and divide it from other content. It's often assigned a *class* name that can be used by CSS to apply a certain type of decoration or *style*. This might seem a little confusing now, but should make sense when we get to CSS.
 
-We'll make a `div` with the class name `container` that wraps around all of the content in the body. Right now out index.html file should look something like this:
+We'll make a `div` with the class name `container` that wraps around all of the content in the body. Right now our index.html file should look something like this:
 
 ```HTML
 <!-- index.html -->
@@ -274,7 +281,7 @@ Now for the `head`! We're going to write some rules that tell the browser how to
 
 #### Background
 
-CSS is different from HTML and is written differently. With CSS you select what element or elements you want to change, what about them you want to change, and how to change that attribute. So if I want to change the background for the `body` tag, I write:
+CSS is different from HTML and is written differently. With CSS you select what element or elements you want to change, what about them you want to change, and how to change that attribute. So if I want to change the background color for the `body` tag, I write:
 
 ```CSS
 body {
@@ -321,7 +328,7 @@ We set `margin` to zero so no space between our container `div` and `body` eleme
 
 The container `div` has the most rules. `padding` is the space between the element border and content. We set this to 6 pixels so the words aren't right next to the border. `margin` is the space between the border and the element outside of the selected element. We set this to auto so the container will be centered. The `max-width` rule states "I don't care how small you get, but don't ever get wider than 600 pixels". Finally we add a `border` that is 4 pixels wide, solid, and seagreen in color.
 
-This is out `head` so far:
+This is our `head` so far:
 
 ```HTML
 <!-- index.html -->
@@ -352,7 +359,7 @@ This is out `head` so far:
 
 ### Finishing Up
 
-#### title
+#### Title
 
 We want the browser to know the name of our site. We use `h1` for the `body` and `title` for the `head`.
 
