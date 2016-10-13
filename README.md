@@ -143,7 +143,7 @@ Now it's time to add an image using the `img` tag. `img` is one of those weird t
 
 #### Lists
 
-HTML gives us two types of lists unordered lists (`ul`) and ordered lists (`ol`).  Really the only difference is do you want lists with bullet points or with numbers. These two tags are containers for any number of list items (`li`) that you want included in your list. We need both for the recipe, `ul` for ingredients and `ol` for the directions:
+HTML gives us two types of lists unordered lists (`ul`) and ordered lists (`ol`).  The only difference between `ul` and `ol` is that `ul` uses bullet points and `ol` uses numbers. These two tags are containers for any number of list items (`li`) that you want included in your list. We need both for the recipe, `ul` for ingredients and `ol` for the directions:
 
 ```HTML
 <!-- index.html -->
@@ -281,7 +281,7 @@ Now for the `head`! We're going to write some rules that tell the browser how to
 
 #### Background
 
-CSS is different from HTML and is written differently. With CSS you select what element or elements you want to change, what about them you want to change, and how to change that attribute. So if I want to change the background color for the `body` tag, I write:
+CSS is different from HTML and is written differently. With CSS you select what element or elements you want to change, what about them you want to change, and how to change that attribute. So if I want to change the background color for the `body` element, I write:
 
 ```CSS
 body {
