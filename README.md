@@ -7,7 +7,7 @@
 
 * [HTML](#html)
   * [DOCTYPE, HTML, Head, and Body](#doctype-html-head-and-body)
-  * [Titles](#titles)
+  * [Headings](#headings)
   * [Paragraphs](#paragraphs)
   * [Images and Attributes](#images-and-attributes)
   * [Lists](#lists)
@@ -65,7 +65,7 @@ The `html` tag is the container for the `head` and `body` containers. It signals
 </html>
 ```
 
-#### Titles
+#### Headings
 
 If you were to look at a book, you would see that it's broken into several smaller parts and each part has a title. There's the book title, then the section titles, then the chapter titles, and then maybe chapter sub-sections:
 
@@ -79,7 +79,7 @@ If you were to look at a book, you would see that it's broken into several small
       * Part 1
       * Part 2
 
-In HTML we have titles too, in fact we have six: `h1`, `h2`, `h3`, `h4`, `h5`, `h6`. `h1` is your main title and `h6` is the smallest title. We're going to add titles to let people know what our site is called and what our sections are called.
+In HTML we have headings too, in fact we have six: `h1`, `h2`, `h3`, `h4`, `h5`, `h6`. `h1` is your main heading and `h6` is the smallest heading. We're going to add headings to let people know what our site is called and what our sections are called.
 
 ```HTML
 <!-- index.html -->
