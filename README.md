@@ -143,7 +143,7 @@ Now it's time to add an image using the `img` tag. `img` is one of those weird t
 
 #### Lists
 
-HTML gives us two types of lists unordered lists (`ul`) and ordered lists (`ol`).  The only difference between `ul` and `ol` is that `ul` uses bullet points and `ol` uses numbers. These two tags are containers for any number of list items (`li`) that you want included in your list. We need both for the recipe, `ul` for ingredients and `ol` for the directions:
+HTML gives us two types of lists: unordered lists (`ul`) and ordered lists (`ol`).  The only difference between `ul` and `ol` is that `ul` uses bullet points and `ol` uses numbers. These two tags are containers for any number of list items (`li`) that you want included in your list. We need both for the recipe, `ul` for ingredients and `ol` for the directions:
 
 ```HTML
 <!-- index.html -->
@@ -392,7 +392,7 @@ We want the browser to know the name of our site. We use `h1` for the `body` and
 
 #### Just Add It
 
-We have two more things we need to add and they're beyond the scope of this lesson but still important. The first sets the character encoding and the other makes sure your site looks normal on a phone:
+We have two more things we need to add and they're beyond the scope of this lesson but still important. The first [sets the character encoding](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) and the other [makes sure your site looks normal on a phone](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag):
 
 ```HTML
 <head>
