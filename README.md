@@ -24,7 +24,6 @@
 
 * [Finishing Up](#finishing-up)
   * [Title](#title)
-  * [Just Add It](#just-add-it)
   * [Final Code](#final-code)
 
 
@@ -387,38 +386,6 @@ We want the browser to know the name of our site. We use `h1` for the `body` and
       }
     </style>
 
-</head>
-```
-
-#### Just Add It
-
-We have two more things we need to add and they're beyond the scope of this lesson but still important. The first [sets the character encoding](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) and the other [makes sure your site looks normal on a phone](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag):
-
-```HTML
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Recipe Book</title>
-
-    <style>
-      body {
-        background: wheat;
-        margin: 0;
-      }
-
-      img {
-        width: 100%;
-      }
-
-      .container {
-        padding: 6px;
-        margin: auto;
-        background: white;
-        max-width: 600px;
-        border: 4px solid seagreen;
-      }
-    </style>
 </head>
 ```
 
