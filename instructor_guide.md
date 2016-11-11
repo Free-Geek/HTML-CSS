@@ -109,7 +109,6 @@ By the end of class, students will understand/be able to create a simple web pag
 
 ## Finishing up Our Recipe Page
 
-* `<meta>` tags
 * `<div>` container
 * Add remaining content
 
