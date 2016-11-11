@@ -31,6 +31,8 @@
 
 ### Notes
 
+* First off, this is what we're making: [Click This](https://free-geek.github.io/HTML-CSS/)
+
 * While it's easy to write out a website in a plain text editor such as Notepad or TextEdit or a text editor made for programming such as Atom, we chose to keep it simple for the class and recommend using [HyperDev](http://www.hyperdev.com). Start a project and empty out index.html of any template code that HyperDev may have added.
 
 * Modern browsers are very forgiving on what is or isn't included in an HTML document. Browsers would rather guess what you meant than serve up an error or broken webpage. For that reason, most everything we mention is considered *best practices* meaning it's recommended but not required.
