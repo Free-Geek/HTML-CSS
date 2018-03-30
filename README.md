@@ -130,7 +130,7 @@ Now it's time to add an image using the `img` tag. `img` is one of those weird t
   <h1>Recipe Book</h1>
   <p>by Free Geek</p>
 
-  <img src="http://refresher.co/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
+  <img src="https://github.com/Free-Geek/HTML-CSS/raw/master/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
 
     <h2>My Famous Gazpacho Recipe</h2>
     <p>This is my world famous Gazpacho recipe. It's really easy, delicious, and healthy. Plus it's a great way to cool off in the summer. Put it in tiny glasses and serve them as appetizers at parties!</p>
@@ -216,7 +216,7 @@ We'll make a `div` with the class name `container` that wraps around all of the 
       <h1>Recipe Book</h1>
       <p>by Free Geek</p>
 
-      <img src="http://refresher.co/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
+      <img src="https://github.com/Free-Geek/HTML-CSS/raw/master/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
 
       <h2>My Famous Gazpacho Recipe</h2>
 
@@ -433,7 +433,7 @@ Here's the final code:
       <h1>Recipe Book</h1>
       <p>by Free Geek</p>
 
-      <img src="http://refresher.co/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
+      <img src="https://github.com/Free-Geek/HTML-CSS/raw/master/gazpacho.jpg" alt="Image of my favorite recipe: Gazpacho!" />
 
       <h2>My Famous Gazpacho Recipe</h2>
 
